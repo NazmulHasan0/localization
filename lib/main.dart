@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       translations: Language(),
-      // locale: Get.deviceLocale,  //* device এর language অনুযায়ি হবে
+      // locale: Get.deviceLocale,        //* device এর language অনুযায়ি হবে
       locale: Locale('en', 'US'), //* initially locale set করা হল
       fallbackLocale: Locale('en',
           'US'), //* যদি কোন কারনে locale কাজ না করে তবে fallbackLocale কাজ করবে
@@ -27,3 +27,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+/*
+git remote add origin git@github.com:NazmulHasan0/localization.git
+*/
